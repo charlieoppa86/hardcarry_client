@@ -1,0 +1,28 @@
+.footer {
+    padding: 30px;
+
+    .policy {
+        list-style: none;
+        display: flex;
+        font-size: 12px;
+
+    }
+
+    .corpinfo {
+        list-style: none;
+        display: flex;
+        font-size: 12px;
+
+    }
+
+    li + li {
+        &::before {
+            content: '|' ;
+            margin: 0 8px;
+            color: #ddd;
+        }
+    }
+
+
+
+}
